@@ -1,0 +1,27 @@
+# Project Instructions
+
+This file provides project-specific instructions for AI/LLM agents working in this repository. Update this file to reflect your project's context, conventions, and requirements.
+
+## Project Overview
+
+[Describe your project here. What does it do? Who is it for?]
+
+## Tech Stack
+
+[List your languages, frameworks, and key dependencies.]
+
+## Development Conventions
+
+[Document your project's coding standards, naming conventions, branching strategy, and any other patterns agents should follow.]
+
+## Agent Configuration
+
+Shared agent configuration is located in `.agents/`:
+
+- `.agents/CYNEFIN.md` — Problem classification framework
+- `.agents/PERSONALITY.md` — Shared agent values and behavioral commitments
+- `.agents/LESSONS.md` — Lessons learned from past sessions
+- `.agents/REQUIREMENTS.md` — Non-negotiable project requirements
+- `.agents/roles/` — Role-specific instructions for each SDLC gate
+
+Platform-specific configuration is located in `.claude/`.
